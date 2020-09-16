@@ -52,4 +52,3 @@ highquantum = (left * highpercent) / len(high)
 high = [x + highquantum for x in high]
 
 print(lowest,low,medium,high)
-
