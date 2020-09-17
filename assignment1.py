@@ -48,3 +48,6 @@ M = [['1','2','3'],
 MT = [[row[i] for row in M] for i in range(3)]
 print(MT)
 print('\n'.join(map(' '.join, MT)))
+
+l = [1,2,3]
+print(l[-3])
